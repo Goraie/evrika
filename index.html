@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Web-site desc">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="icon" href="../images/favicon.png">
+	<title>ЭVRИКА</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container d-flex">
+			<a class="header__logo"><img src="img/logo.png" alt=""></a>
+			<ul class="header__menu">
+				<li class="header__item"><a href="/" class="header__link">Что это такое?</a></li>
+				<li class="header__item"><a href="/" class="header__link">Пакет франшизы</a></li>
+				<li class="header__item"><a href="/" class="header__link">Видео и фото</a></li>
+				<li class="header__item"><a href="/" class="header__link">Отзывы</a></li>
+				<li class="header__item"><a href="/" class="header__link">Контакты</a></li>
+			</ul>
+			<button type="button" class="header__btn btn">Позвоните мне</button>
+		</div>
+	</header>
+	<button type="button" class="btn-fixed btn">Позвоните мне</button>
+	
+	<section class="offer">
+		<div class="offer__w">
+			<h1 class="offer__title">Франшиза мобильного кинотеатра виртуальной реальности 360</h1>
+			<p class="offer__text">с доходом от 2 500 000 р</p>
+			<button type="button" class="offer__btn btn">Получить предложение</button>
+		</div>
+		<img src="img/offer-boy.png" alt="" class="offer__i">
+		<img src="img/offer-bg-bottom.svg" alt="" class="offer__bottom">
+		<img src="img/offer-bg-bottom.svg" alt="" class="offer__top">
+		<a href="#" class="offer__next"></a>
+	</section>
+	
+	<section class="about">
+		<div class="container">
+			<h2 class="about__title">Что это такое?</h2>
+			<p class="about__text">Мы представляем Вам бизнес – модель, благодаря которой Вы начнете зарабатывать действительно быстро с минимальными инвестициями.</p>
+			<p class="about__text">Франшиза  ISTA VR  оказывает услуги в сфере дополнительного образования детей.</p>
+			<p class="about__text">Знакомство детей с уроками виртуальной реальности  из нашей библиотеки проходят в образовательном, познавательном, развлекательном формате. Эффект технологии виртуальной реальности пробуждает неподдельный интерес к дисциплинам, знаниям, вызывает восторг и оставляет под впечатлением участников. </p>
+			<p class="about__text">Представь, Весь мир в твоих глазах! <br> Обычно наши уроки проходят в школах, детских садах, детских лагерях, детских центрах, домах культуры, библиотеках, сотрудничаем  с ивент агентствами на различных мероприятиях.</p>
+		</div>
+	</section>
+
+	<section class="whom">
+		<div class="container">
+			<div class="whom__left">
+				<h2 class="whom__title">Для кого это?</h2>
+				<ul class="whom__list">
+					<li class="whom__item">
+						- Школы
+					</li>
+					<li class="whom__item">
+						- Детские сады
+					</li>
+					<li class="whom__item">
+						- Детские центры
+					</li>
+					<li class="whom__item">
+						- Дома культуры
+					</li>
+					<li class="whom__item">
+						- Парки
+					</li>
+					<li class="whom__item">
+						- Детские лагеря
+					</li>
+				</ul>
+			</div>
+			<div class="whom__right">
+				<h2 class="whom__title_vr">Один сеанс <br> виртуальной реальности:</h2>
+				<div class="whom__wrapp" id="whom__wrapp">
+					<div class="whom__circle_scene" id="scene1"  data-relative-input="true" >
+						<div class="whom__circle whom__circle_one" data-depth="0.05">
+							<p>Длительность<span>30-45<strong>мин</strong></span></p>
+						</div>
+					</div>
+					<div class="whom__circle_scene" id="scene2" data-relative-input="true">
+						<div class="whom__circle whom__circle_two" data-invert-x="false"  data-depth="0.05">
+							<p>Кол-во людей<span>20-25</span></p>
+						</div>
+					</div>
+					<div class="whom__circle_scene" id="scene3" data-relative-input="true">
+						<div class="whom__circle whom__circle_three" data-invert-y="false" data-depth="0.1">
+							<p>Стоимость билета<span>200-400 <strong>руб.</strong></span>(зависит от региона)</p>
+						</div>
+					</div>
+					<div class="whom__circle_scene" id="scene4" data-relative-input="true">
+						<div class="whom__circle whom__circle_fourth" data-invert-x="false" data-invert-y="false" data-depth="0.05">
+							<p><span>До 15</span>сеансов в день</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container container_plus">
+			<div class="whom__plus">
+				<span>$ 2.2 млрд.</span>
+				<p>объем рынка VR в 2018 году</p>
+			</div>
+			<div class="whom__plus">
+				<span>$ 26 млн.</span>
+				<p>объем рынка VR в России в 2018 году</p>
+			</div>
+			<div class="whom__plus">
+				<span>31%</span>
+				<p>прогнозный среднегодовой темп роста</p>
+			</div>
+			<div class="whom__plus">
+				<span>12.8 млн.</span>
+				<p>шлемов виртуальной реальности будет в России к 2021 году</p>
+			</div>
+		</div>
+		<div class="container d-flex">
+			<button type="button" class="whom__btn btn">Скачать презентацию</button>
+		</div>
+	</section>
+
+	<section class="content">
+		<div class="container container_sm">
+			<h2 class="content__title">Экслюзивный контент</h2>
+			<div class="content__wrapper">
+				<div class="content__prewiev"><img src="img/content-1.jpg" alt="Афиша Алтай"></div>
+				<div class="content__main">
+					<div class="content__top">
+						<h3 class="content__name">Путешествие на Алтай</h3>
+						<div class="content__what">
+							<div class="content__tag content__tag_gray"><span>Природа</span></div>
+							<div class="content__tag content__tag_gray"><span>Россия</span></div>
+							<div class="content__tag content__tag_gray"><span>Путешествие</span></div>
+						</div>
+						<p class="content__text">Захватывающие дух пейзажи, самобытная культура, богатая флора и фауна, – откройте для себя один из самых удивительных и красивых регионов России.</p>
+						<div class="content__info">
+							<div class="content__tag"><span>45 мин</span><img src="img/clock.svg" alt=""></div>
+							<div class="content__tag"><span>С 6 до 18 лет</span></div>
+						</div>
+					</div>
+					<div class="content__images">
+						<img src="img/content-2.jpg" alt="Афиша Дино">
+						<img src="img/content-3.jpg" alt="Афиша Метеоритик">
+						<img src="img/content-4.jpg" alt="Афиша Москва">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="media">
+		<div class="container container_sm">
+			<iframe 
+				width="560" height="315" 
+				src="https://www.youtube.com/embed/S5XXsRuMPIU" 
+				title="YouTube video player" frameborder="0" 
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+				allowfullscreen>
+			</iframe>
+		</div>
+		<div class="media__photo">
+			<img src="img/all-page.jpg" alt="">
+			<img src="img/all-page.jpg" alt="">
+			<img src="img/all-page.jpg" alt="">
+			<img src="img/all-page.jpg" alt="">
+		</div>
+	</section>
+
+	<section class="inside">
+		<div class="container">
+			<h2 class="inside__title">Что входит в пакет франшизы?</h2>
+			<div class="inside__wrapper">
+				<div class="inside-card">
+					<h4 class="inside-card__title">Простая и понятная бизнес-модель</h4>
+					<div class="inside-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+				</div>
+				<div class="inside-card">
+					<h4 class="inside-card__title">Простая и понятная бизнес-модель</h4>
+					<div class="inside-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+				</div>
+				<div class="inside-card">
+					<h4 class="inside-card__title">Простая и понятная бизнес-модель</h4>
+					<div class="inside-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+				</div>
+				<div class="inside-card">
+					<h4 class="inside-card__title">Простая и понятная бизнес-модель</h4>
+					<div class="inside-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+				</div>
+				<div class="inside-card">
+					<h4 class="inside-card__title">Простая и понятная бизнес-модель</h4>
+					<div class="inside-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+				</div>
+				<div class="inside-card">
+					<h4 class="inside-card__title">Простая и понятная бизнес-модель</h4>
+					<div class="inside-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+				</div>
+				<div class="inside-card">
+					<h4 class="inside-card__title">Простая и понятная бизнес-модель</h4>
+					<div class="inside-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+				</div>
+				<div class="inside-card">
+					<h4 class="inside-card__title">Простая и понятная бизнес-модель</h4>
+					<div class="inside-card__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="support">
+		<div class="container">
+			<div class="support__left">
+				<h2 class="support__title">Поддержка и консультации</h2>
+				<span class="support__span">7 дней в неделю</span>
+				<p class="support__text">Консультации по юридическим и бухгалтерским вопросам. Встречи онлайн и офлайн с первыми лицами компании. Помощь в решении любых бизнес-вопросов.</p>
+			</div>
+			<div class="support__right">
+				<h3 class="support__subtitle">Мы расскажем вам все секретыкак зарабатывать быcтро, с минимальными тратами труда и финансов!</h3>
+				<button type="button" class="support__btn btn">Получить предложение</button>
+			</div>
+		</div>
+	</section>
+	
+	<section class="tarif">
+		<h2 class="tarif__title">Ваши инвестиции</h2>
+		<div class="container d-flex">
+			<div class="tarif__info">
+				<div class="tarif__heading"><p class="tarif__text"></p></div>
+				<div class="tarif__item"><p class="tarif__text">Комплект оборудования</p></div>
+				<div class="tarif__item"><p class="tarif__text">Вступительный взнос</p></div>
+				<div class="tarif__item"><p class="tarif__text">Роялти</p></div>
+				<div class="tarif__item"><p class="tarif__text">Маркетинговые отчисления</p></div>
+			</div>
+			<div class="tarif__col">
+				<div class="tarif__heading"><p class="tarif__text">Start</p></div>
+				<div class="tarif__col_main">
+					<div class="tarif__item"><p class="tarif__text">10 шлемов от 70 000 руб.</p></div>
+					<div class="tarif__item"><p class="tarif__text">от 200 000 руб.</p></div>
+					<div class="tarif__item"><p class="tarif__text">30 руб. с 1 человека</p></div>
+					<div class="tarif__item"><p class="tarif__text">Отсутствуют</p></div>
+				</div>
+			</div>
+			<div class="tarif__col">
+				<div class="tarif__heading"><p class="tarif__text">Optimal</p></div>
+				<div class="tarif__col_main">
+					<div class="tarif__item"><p class="tarif__text">10 шлемов от 70 000 руб.</p></div>
+					<div class="tarif__item"><p class="tarif__text">от 200 000 руб.</p></div>
+					<div class="tarif__item"><p class="tarif__text">30 руб. с 1 человека</p></div>
+					<div class="tarif__item"><p class="tarif__text">Отсутствуют</p></div>
+				</div>
+			</div>
+			<div class="tarif__col">
+				<div class="tarif__heading"><p class="tarif__text">Ideal</p></div>
+				<div class="tarif__col_main">
+					<div class="tarif__item"><p class="tarif__text">10 шлемов от 70 000 руб.</p></div>
+					<div class="tarif__item"><p class="tarif__text">от 200 000 руб.</p></div>
+					<div class="tarif__item"><p class="tarif__text">30 руб. с 1 человека</p></div>
+					<div class="tarif__item"><p class="tarif__text">Отсутствуют</p></div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="tarif__positive">
+				<div class="tarif__plus">Маржинальность 70%</div>
+				<div class="tarif__plus">Окупаемость до 6 месяцев</div>
+				<div class="tarif__plus">Эксклюзив в вашем регионе</div>
+				<div class="tarif__plus">Удаленный контроль</div>
+				<div class="tarif__plus">Уникальный контент</div>
+			</div>
+		</div>
+	</section>
+	<section class="calc">
+		<div class="container">
+			<h2 class="calc__title">Калькулятор прибыли</h2>
+			<h4 class="calc__subtitle">Количество детей</h4>
+			<div class="calc__progress">
+				<div class="progress">
+					<input type="range" min="0" max="5000" value="3750" step="1" class="progress__el">
+				</div>
+				<h3 class="calc__num calc__count"></h3>
+			</div>
+			<div class="calc__data">
+				<h3 class="calc__num calc__num_s">0</h3>
+				<h3 class="calc__num calc__num_f">5000</h3>
+			</div>
+			<div class="calc__info">
+				<div class="calc__item">
+					<h3 class="calc__name">Цена билета</h3>
+					<span class="calc__span">300р</span>
+				</div>
+				<div class="calc__item">
+					<h3 class="calc__name">Окупаемость</h3>
+					<span class="calc__span">до 6 мес</span>
+				</div>
+				<div class="calc__item">
+					<h3 class="calc__name">Выручка в месяц</h3>
+					<span class="calc__span calc__span_price"><span>560 000</span>р</span>
+				</div>
+			</div>
+			<button type="button" class="calc__btn btn">Рассчитать для вашего города </button>
+		</div>
+	</section>
+	<section class="travel">
+		<div class="container">
+			<h2 class="travel__title">Покупая франшизу, вы получаете возможность открыть мобильный кинотеатр вирутальной реальности <span>в выездном формате!</span></h2>
+			<div class="travel__wrapper">
+				<div class="travel__text">
+					<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+					<p >Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+				</div>
+				<div class="travel__i"><img src="img/kid.png" alt=""></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="special">
+		<div class="container">
+				<span class="special__span">СПЕЦИАЛЬНОЕ ПРЕДЛОЖЕНИЕ!</span>
+				<h2 class="special__title">Станьте МАСТЕР-ФРАНЧАЙЗИ В ВАШЕМ РЕГИОНЕ!</h2> 
+				<p class="special__text">Контролируйте продажу франшиз в вашем регионе, привлекайте новых Франчайзи и получайтекомиссию от их вступительного взноса и роялти. <br><br>	Больше партнеров - больше прибыли!</p>
+				<button type="button" class="special__btn btn">Стать партнером</button>
+				<img src="img/special-map.png" class="special__map">
+		</div>
+	</section>
+
+	<section class="russia">
+		<div class="container">
+			<h2 class="russia__title">СТАНЬ ПЕРВЫМ В СВОЕМ РЕГИОНЕ</h2>
+			<div class="russia__map">
+				<!-- карта России -->
+			</div>
+		</div>
+	</section>
+
+	<section class="feedback">
+		<div class="container container_sm">
+			<h2 class="feedback__title">Отзывы партнеров</h2>
+			<div class="swiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="feedback__wrapper">
+							<div class="feedback__i">
+								<iframe 
+									width="460" height="250" 
+									src="https://www.youtube.com/embed/S5XXsRuMPIU?rel=0" 
+									title="YouTube video player" frameborder="0" 
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+									allowfullscreen>
+								</iframe>
+							</div>
+							<div class="feedback__content">
+								<h4 class="feedback__point">Регион</h4>
+								<p class="feedback__text">Москва</p>
+								<h4 class="feedback__point">Отзыв: </h4>
+								<p class="feedback__text">Я открыл IstaVR в 2019 году. Сейчас, даже в сложныйпериод мы регулярно делаем более 100 заказов вмесяц. Я очень доволен!</p>
+								<h4 class="feedback__point">Соболев Матвей</h4>
+								<p class="feedback__text text_sm">партнер</p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="feedback__wrapper">
+							<div class="feedback__i">			
+								<iframe 
+									width="460" height="250" 
+									src="https://www.youtube.com/embed/S5XXsRuMPIU?rel=0" 
+									title="YouTube video player" frameborder="0" 
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+									allowfullscreen>
+								</iframe>
+							</div>
+							<div class="feedback__content">
+								<h4 class="feedback__point">Регион</h4>
+								<p class="feedback__text">Москва</p>
+								<h4 class="feedback__point">Отзыв: </h4>
+								<p class="feedback__text">Я открыл IstaVR в 2019 году. Сейчас, даже в сложныйпериод мы регулярно делаем более 100 заказов вмесяц. Я очень доволен!</p>
+								<h4 class="feedback__point">Соболев Матвей</h4>
+								<p class="feedback__text text_sm">партнер</p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="feedback__wrapper">
+							<div class="feedback__i">			
+								<iframe 
+									width="460" height="250" 
+									src="https://www.youtube.com/embed/S5XXsRuMPIU?rel=0" 
+									title="YouTube video player" frameborder="0" 
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+									allowfullscreen>
+								</iframe>
+							</div>
+							<div class="feedback__content">
+								<h4 class="feedback__point">Регион</h4>
+								<p class="feedback__text">Москва</p>
+								<h4 class="feedback__point">Отзыв: </h4>
+								<p class="feedback__text">Я открыл IstaVR в 2019 году. Сейчас, даже в сложныйпериод мы регулярно делаем более 100 заказов вмесяц. Я очень доволен!</p>
+								<h4 class="feedback__point">Соболев Матвей</h4>
+								<p class="feedback__text text_sm">партнер</p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="feedback__wrapper">
+							<div class="feedback__i">			
+								<iframe 
+									width="460" height="250" 
+									src="https://www.youtube.com/embed/S5XXsRuMPIU?rel=0" 
+									title="YouTube video player" frameborder="0" 
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+									allowfullscreen>
+								</iframe>
+							</div>
+							<div class="feedback__content">
+								<h4 class="feedback__point">Регион</h4>
+								<p class="feedback__text">Москва</p>
+								<h4 class="feedback__point">Отзыв: </h4>
+								<p class="feedback__text">Я открыл IstaVR в 2019 году. Сейчас, даже в сложныйпериод мы регулярно делаем более 100 заказов вмесяц. Я очень доволен!</p>
+								<h4 class="feedback__point">Соболев Матвей</h4>
+								<p class="feedback__text text_sm">партнер</p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="feedback__wrapper">
+							<div class="feedback__i">			
+								<iframe 
+									width="460" height="250" 
+									src="https://www.youtube.com/embed/S5XXsRuMPIU?rel=0" 
+									title="YouTube video player" frameborder="0" 
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+									allowfullscreen>
+								</iframe>
+							</div>
+							<div class="feedback__content">
+								<h4 class="feedback__point">Регион</h4>
+								<p class="feedback__text">Москва</p>
+								<h4 class="feedback__point">Отзыв: </h4>
+								<p class="feedback__text">Я открыл IstaVR в 2019 году. Сейчас, даже в сложныйпериод мы регулярно делаем более 100 заказов вмесяц. Я очень доволен!</p>
+								<h4 class="feedback__point">Соболев Матвей</h4>
+								<p class="feedback__text text_sm">партнер</p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="feedback__wrapper">
+							<div class="feedback__i">			
+								<iframe 
+									width="460" height="250" 
+									src="https://www.youtube.com/embed/S5XXsRuMPIU?rel=0" 
+									title="YouTube video player" frameborder="0" 
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+									allowfullscreen>
+								</iframe>
+							</div>
+							<div class="feedback__content">
+								<h4 class="feedback__point">Регион</h4>
+								<p class="feedback__text">Москва</p>
+								<h4 class="feedback__point">Отзыв: </h4>
+								<p class="feedback__text">Я открыл IstaVR в 2019 году. Сейчас, даже в сложныйпериод мы регулярно делаем более 100 заказов вмесяц. Я очень доволен!</p>
+								<h4 class="feedback__point">Соболев Матвей</h4>
+								<p class="feedback__text text_sm">партнер</p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="feedback__wrapper">
+							<div class="feedback__i">			
+								<iframe 
+									width="460" height="250" 
+									src="https://www.youtube.com/embed/S5XXsRuMPIU?rel=0" 
+									title="YouTube video player" frameborder="0" 
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+									allowfullscreen>
+								</iframe>
+							</div>
+							<div class="feedback__content">
+								<h4 class="feedback__point">Регион</h4>
+								<p class="feedback__text">Москва</p>
+								<h4 class="feedback__point">Отзыв: </h4>
+								<p class="feedback__text">Я открыл IstaVR в 2019 году. Сейчас, даже в сложныйпериод мы регулярно делаем более 100 заказов вмесяц. Я очень доволен!</p>
+								<h4 class="feedback__point">Соболев Матвей</h4>
+								<p class="feedback__text text_sm">партнер</p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="feedback__wrapper">
+							<div class="feedback__i">			
+								<iframe 
+									width="460" height="250" 
+									src="https://www.youtube.com/embed/S5XXsRuMPIU?rel=0" 
+									title="YouTube video player" frameborder="0" 
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+									allowfullscreen>
+								</iframe>
+							</div>
+							<div class="feedback__content">
+								<h4 class="feedback__point">Регион</h4>
+								<p class="feedback__text">Москва</p>
+								<h4 class="feedback__point">Отзыв: </h4>
+								<p class="feedback__text">Я открыл IstaVR в 2019 году. Сейчас, даже в сложныйпериод мы регулярно делаем более 100 заказов вмесяц. Я очень доволен!</p>
+								<h4 class="feedback__point">Соболев Матвей</h4>
+								<p class="feedback__text text_sm">партнер</p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="feedback__wrapper">
+							<div class="feedback__i">			
+								<iframe 
+									width="460" height="250" 
+									src="https://www.youtube.com/embed/S5XXsRuMPIU?rel=0" 
+									title="YouTube video player" frameborder="0" 
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+									allowfullscreen>
+								</iframe>
+							</div>
+							<div class="feedback__content">
+								<h4 class="feedback__point">Регион</h4>
+								<p class="feedback__text">Москва</p>
+								<h4 class="feedback__point">Отзыв: </h4>
+								<p class="feedback__text">Я открыл IstaVR в 2019 году. Сейчас, даже в сложныйпериод мы регулярно делаем более 100 заказов вмесяц. Я очень доволен!</p>
+								<h4 class="feedback__point">Соболев Матвей</h4>
+								<p class="feedback__text text_sm">партнер</p>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="feedback__wrapper">
+							<div class="feedback__i">			
+								<iframe 
+									width="460" height="250" 
+									src="https://www.youtube.com/embed/S5XXsRuMPIU?rel=0" 
+									title="YouTube video player" frameborder="0" 
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+									allowfullscreen>
+								</iframe>
+							</div>
+							<div class="feedback__content">
+								<h4 class="feedback__point">Регион</h4>
+								<p class="feedback__text">Москва</p>
+								<h4 class="feedback__point">Отзыв: </h4>
+								<p class="feedback__text">Я открыл IstaVR в 2019 году. Сейчас, даже в сложныйпериод мы регулярно делаем более 100 заказов вмесяц. Я очень доволен!</p>
+								<h4 class="feedback__point">Соболев Матвей</h4>
+								<p class="feedback__text text_sm">партнер</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="feedback__navigation">
+					<div class="feedback__navigation_w">
+						<button type="button" class="feedback__btn btn feedback__prev">Предыдущий</button>
+						<div class="feedback__count"></div>
+						<button type="button" class="feedback__btn btn feedback__next">Следующий</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="how">
+		<div class="container">
+			<h2 class="how__title">Как стать партнером?</h2>
+			<div class="how__progress">
+				<img src="img/progress.svg" class="how__i">
+				<p class="how__text">Оставьте заявку</p>
+				<p class="how__text">С вами свяжется директор по развитию сети EVRIKA</p>
+				<p class="how__text">Подберем формат франшизы специально для вас</p>
+				<p class="how__text">Обсудим условия сотрудничества</p>
+				<p class="how__text">Подпишем договор</p>
+				<p class="how__text">Передадим стандарты ведения бизнеса</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="form">
+		<div class="container d-flex">
+			<div class="form__content">
+				<h3 class="form__title">Телефон:</h3>
+				<h3 class="form__text">8 (950) 564-99-33</h3>
+				<h3 class="form__title">Директор:</h3>
+				<h3 class="form__text">Князев Денис</h3>
+				<h3 class="form__title">E-mail:</h3>
+				<h3 class="form__text">ISTA.VR@mail.ru</h3>
+				<h3 class="form__title">Skype:</h3>
+				<h3 class="form__text">ISTA VR</h3>
+			</div>
+			<div class="form__main">
+				<input class="form__input" type="text" placeholder="Ваше имя">
+				<input class="form__input" type="text" placeholder="Ваше город">
+				<input class="form__input" type="tel" placeholder="+7 (xxx) xxx-xxx">
+				<input class="form__input" type="email" placeholder="E-mail">
+				<button type="button" class="form__btn btn">Отправить</button>
+			</div>
+		</div>
+	</section>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
