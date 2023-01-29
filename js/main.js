@@ -1,4 +1,15 @@
-
+const swiper = new Swiper('.swiper', {
+  direction: 'horizontal',
+  loop: true,
+  navigation: {
+    nextEl: '.feedback__next',
+    prevEl: '.feedback__prev',
+  },
+  pagination: {
+    el: '.feedback__count',
+    type: 'fraction'
+  },
+});
 
 const parallax1 = new Parallax(document.getElementById('scene1'));
 const parallax2 = new Parallax(document.getElementById('scene2'));
@@ -11,7 +22,6 @@ parallax4.limit(50,40)
 
 const range = document.querySelector('.progress__el')
 const childCount = document.querySelector('.calc__count')
-const price = document.querySelector('.calc__span_price span')
 const minStep = range.offsetWidth / 5000
 
 function getChildCount(){
