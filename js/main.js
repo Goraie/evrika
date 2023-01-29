@@ -22,6 +22,7 @@ parallax4.limit(50,40)
 
 const range = document.querySelector('.progress__el')
 const childCount = document.querySelector('.calc__count')
+const price = document.querySelector('.calc__span_price')
 const minStep = range.offsetWidth / 5000
 
 function getChildCount(){
