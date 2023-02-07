@@ -1,24 +1,526 @@
-
 @media (max-width : 1400px) {
-
+	.offer{
+		min-height: 790px;
+	}
+	.offer__i{
+		height: 410px;
+	}
+	#scene3{
+		bottom: -27px;
+		right: 150px;
+	}
+	#scene2 {
+		left: 190px;
+	}
+	#scene2 {
+		right: -10px;
+	}
+	.whom__plus{
+		width: 220px;
+	}
+	.whom__plus span{
+		font-size: 28px;
+		height: 46px;
+	}
+	.inside-card{
+		width: 450px;
+	}
+	.support__left, .support__right {
+		width: 460px;
+	}
+	.tarif__col {
+		width: 260px;
+	}
+	.tarif__info {
+		width: 140px;
+	}
+	.tarif__item, .tarif__heading{
+		font-size: 16px;
+	}
+	.tarif__plus{
+		width: 450px;
+		padding-right: 0;
+		padding-left: 0;
+		text-align: center;
+	}
+	.travel__i img{
+		width: 420px;
+	}
+	.travel__text{
+		font-size: 16px;
+	}
+	.feedback__content{
+		width: 460px;
+	}
+	.how__text:nth-child(2){
+		left: 34px;
+	}
+	.how__text:nth-child(3){
+		left: 116px;
+	}
+	.how__text:nth-child(4){
+		left: 260px;
+	}
+	.how__text:nth-child(5){
+		right: 260px;
+	}
+	.how__text:nth-child(6){
+		right: 146px;
+	}
+	.how__text:nth-child(7){
+		right: -49px;
+	}
+	.form__content{
+		font-size: 24px;
+	}
 }
 
 @media (max-width : 1200px) {
-
+	.container,.container_sm{
+		width: 960px;
+	}
+	.whom__right{
+		width: auto;
+	}
+	.header__logo img{
+		width: 120px;
+	}
+	.header__item:not(:last-of-type){
+		margin-right: 10px;
+	}
+	.btn{
+		font-size: 16px;
+	}
+	.offer{
+		min-height: 680px;
+	}
+	.offer__i {
+		height: 330px;
+		bottom: 30px;
+	}
+	.offer__w{
+		width: 660px;
+		height: 660px;
+		margin-top: -170px;
+	}
+	.offer__title{
+		font-size: 32px;
+	}
+	.offer__bottom{
+		bottom: 13px;
+	}
 }
 
 @media (max-width : 992px) {
-
+	.container{
+		width: 100%;
+		padding: 0 30px;
+	}
+	.offer{
+		min-height: 550px;
+	}
+	.offer__i{
+		height: 200px;
+	}
+	.offer__w{
+		width: 550px;
+		height: 550px;
+		margin-top: -120px;
+	}
+	.offer__text{
+		font-size: 24px;
+	}
+	.header__menu{
+		display: none;
+	}
+	.whom .container{
+		flex-direction: column;
+	}
+	.whom__right{
+		margin-left: 0;
+	}
+	#scene3 {
+		right: 170px;
+	}
+	.whom .container_plus{
+		flex-direction: row;
+	}
+	.whom__plus {
+		width: 170px;
+		font-size: 14px;
+	}
+	.whom__plus span{
+		font-size: 24px;
+		height: 38px;
+	}
+	.whom__btn{
+		margin-bottom: 100px;
+	}
+	.content__prewiev img{
+		width: 310px;
+		height: auto;
+	}
+	.content__prewiev{
+		margin-right: 20px;
+	}
+	.content__images img{
+		width: 90px;
+	}
+	.content__text{
+		font-size: 16px;
+	}
+	.inside-card{
+		width: 48%;
+	}
+	.support__span {
+		font-size: 24px;
+	}
+	.tarif__info{
+		display: none;
+	}
+	.tarif__col{
+		width: 31%;
+	}
+	.tarif__item{
+		padding: 0 10px;
+	}
+	.tarif__plus{
+		width: 48%;
+		font-size: 16px;
+	}
+	.calc__name{
+		font-size: 18px;
+	}
+	.calc__item{
+		width: 32%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.calc__span{
+		font-size: 24px;
+	}
+	.travel__i{
+		display: none;
+	}
+	.special__map{
+		display: none;
+	}
+	.feedback__i iframe{
+		width: 100%;
+		height: 200px;
+	}
+	.feedback__i{
+		width: 46%;
+	}
+	.feedback__content{
+		width: 50%;
+	}
+	.how__text{
+		font-size: 16px;
+		max-width: 200px;
+	}
+	.how__text:nth-child(2){
+		left: 1%;
+	}
+	.how__text:nth-child(3){
+		left: 10%;
+	}
+	.how__text:nth-child(4){
+		left: 29%;
+	}
+	.how__text:nth-child(5){
+		right: 27%;
+	}
+	.how__text:nth-child(6){
+		right: 13%;
+	}
+	.how__text:nth-child(7){
+		right: -4%;
+	}
+	.form .container{
+		flex-direction: column;
+	}
+	.form__content{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	.form__content{
+		font-size: 18px;
+	}
+	.form__w{
+		display: flex;
+	}
+	.form .form__title{
+		width: 140px;
+	}
+	h2{
+		font-size: 24px;
+	}
+	.special__text{
+		font-size: 18px;
+	}
 }
 
 @media (max-width : 768px) {
-
+	.btn-fixed:hover{
+		width: 100px;
+	}
+	.offer__w{
+		width: 85vw;
+		height: 85vw;
+	}
+	.offer__title {
+		font-size: 28px;
+		margin-top: 80px;
+	}
+	.offer__text{
+		font-size: 18px;
+	}
+	.whom__wrapp{
+		height: 580px;
+	}
+	#scene3{
+		bottom: 105px;
+		right: 25px;
+	}
+	#scene4{
+		top: auto;
+		bottom: 0;
+		right: auto;
+		left: 0;
+	}
+	.whom__left {
+		width: 100%;
+	}
+	.whom__item{
+		font-size: 18px;
+		font-weight: 500;
+	}
+	.whom__title_vr{
+		margin-top: 25px;
+	}
+	.content__wrapper{
+		flex-direction: column;
+	}
+	.content__prewiev{
+		display: flex;
+		justify-content: center;
+	}
+	.content__main{
+		justify-content: center;
+		margin-top: 30px;
+	}
+	.content__top{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.content__text{
+		text-align: center;
+	}
+	.content__images{
+		margin-top: 20px;
+		justify-content: center;
+	}
+	.media iframe{
+		height: 400px;
+	}
+	.support .container{
+			flex-direction: column;
+	}
+	.whom .container_plus{
+		flex-wrap: wrap;
+	}
+	.whom__plus{
+		width: 45%;
+		margin-bottom: 30px;
+	}
+	.whom__btn{
+		margin-top: 35px;
+	}
+	.support__text{
+		font-size: 16px;
+		font-weight: 400;
+	}
+	.support__subtitle{
+		font-size: 20px;
+		margin-top: 40px;
+	}
+	.feedback__wrapper{
+		flex-direction: column;
+	}
+	.feedback__i{
+		width: 100%;
+	}
+	.feedback__i iframe{
+		height: 320px;
+	}
+	.feedback__content{
+		width: 100%;
+	}
+	.how__i{
+		display: none;
+	}
+	.how__text{
+		position:initial;
+		width: 46%;
+		margin-bottom: 20px;
+		height: auto;
+		text-align: left;
+	}
+	.how__progress{
+		flex-wrap: wrap;
+		align-items: start;
+		justify-content: space-between;
+	}
+	.offer__next{
+		bottom: -35px;
+	}
+	.offer__bottom {
+		bottom: 15px;
+		height: 30px;
+	}
+	.inside-card{
+		width: 100%;
+	}
+	.tarif .container.d-flex{
+		flex-direction: column;
+	}
+	.tarif__col{
+		width: 420px;
+	}
+	.tarif__item,.tarif__heading{
+		font-size: 24px;
+	}
 }
 
 @media (max-width : 576px) {
-
+	.offer__w{
+		width: 95vw;
+		height: 95vw;
+	}
+	.offer__title {
+		font-size: 26px;
+	}
+	.tarif__plus{
+		width: 100%;
+	}
+	.feedback__btn{
+		font-size: 16px;
+		padding: 16px 25px;
+	}
+	.feedback__count{
+		font-size: 16px;
+	}
+	.form__main{
+		width: 420px;
+	}
 }
 
 @media (max-width: 480px) {
-	
+	.offer__w{
+		width: 100vw;
+		height: 100vw;
+		margin-top: -40px;
+	}
+	.offer__title{
+		font-size: 18px;
+	}
+	.offer__text{
+		font-size: 16px;
+	}
+	.offer__btn{
+		font-size: 16px;
+	}
+	.offer__w{
+		width: 420px;
+		height: 420px;
+		position: absolute;
+		margin-top: 0;
+		top: -100px;
+	}
+	.offer__title{
+		max-width: 280px;
+	}
+	.media .container{
+		padding: 0;
+	}
+	.media iframe{
+		width: 100%;
+		height: 260px;
+	}
+	.tarif__col{
+		width: 100%;
+	}
+	.tarif__item{
+		font-size: 18px;
+	}
+	.calc__info{
+		flex-direction: column;
+	}
+	.calc__item{
+		width: 100%;
+	}
+	.calc__name{
+		margin-bottom: 10px;
+	}
+	.calc__span{
+		margin-bottom: 20px;
+	}
+	h2{
+		font-size: 24px;
+	}
+	.travel__title{
+		font-size: 18px;
+		line-height: 1.2;
+	}
+	.special__span{
+		font-size: 24px;
+	}
+	.feedback__btn{
+		font-size: 14px;
+		padding: 8px 12px;
+	}
+	.feedback__count{
+		font-size: 14px;
+		margin: 0 5px;
+		width: 45px;
+		text-align: center;
+	}
+	.feedback .container{
+		padding: 0 15px;
+	}
+	.form__w{
+		flex-direction: column;
+	}
+	.form__main{
+		width: 300px;
+		padding: 40px 25px;
+	}
+	.form__btn{
+		width: 100%;
+	}
+	.support__left, .support__right{
+		width: 100%;
+	}
+	.support__subtitle{
+		margin-bottom: 15px;
+	}
+	.support__span{
+		font-size: 20px;
+	}
+	.header__btn {
+		font-size: 14px;
+		padding: 10px 15px;
+	}
+	.header .container{
+		padding: 0 15px;
+	}
+	.header__logo{
+		width: 80px;
+	}
 }

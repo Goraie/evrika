@@ -11,14 +11,14 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
-const parallax1 = new Parallax(document.getElementById('scene1'));
-const parallax2 = new Parallax(document.getElementById('scene2'));
-const parallax3 = new Parallax(document.getElementById('scene3'));
-const parallax4 = new Parallax(document.getElementById('scene4'));
-parallax1.limit(50,40)
-parallax2.limit(50,40)
-parallax3.limit(50,40)
-parallax4.limit(50,40)
+// const parallax1 = new Parallax(document.getElementById('scene1'));
+// const parallax2 = new Parallax(document.getElementById('scene2'));
+// const parallax3 = new Parallax(document.getElementById('scene3'));
+// const parallax4 = new Parallax(document.getElementById('scene4'));
+// parallax1.limit(50,40)
+// parallax2.limit(50,40)
+// parallax3.limit(50,40)
+// parallax4.limit(50,40)
 
 const range = document.querySelector('.progress__el')
 const childCount = document.querySelector('.calc__count')
@@ -49,4 +49,23 @@ function setChildCount(value, width, widthStep){
 setChildCount(getChildCount(),getChildCountTextWidth(), calcWidthOffset())
 range.addEventListener('input', () => {
 	setChildCount(getChildCount(),getChildCountTextWidth(), calcWidthOffset())
+})
+
+const modal = document.querySelector('.modal')
+const body = document.querySelector('body')
+const modalClose = document.querySelector('.form__close')
+const modalBtn = document.querySelectorAll('.offer__btn')
+
+modalBtn.forEach(btn => {
+	btn.addEventListener('click', () => {
+		modal.classList.remove('none')
+		// body.style.overflow = 'hidden'
+	})
+})
+
+modal.addEventListener('click', (e) => {
+	if(e.target === modal || e.target === modalClose){
+		modal.classList.add('none')
+		// body.style.overflow = 'visible'
+	}
 })

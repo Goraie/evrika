@@ -6,10 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<link rel="icon" href="../images/favicon.png">
 	<title>ЭVRИКА</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="css/swiper-bundle.min.css"/>
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
 </head>
@@ -28,7 +25,7 @@
 			<button type="button" class="header__btn btn">Позвоните мне</button>
 		</div>
 	</header>
-	<button type="button" class="btn-fixed btn">Позвоните мне</button>
+	<div class="btn-fixed btn btn-modal"><img src="img/phone.svg" alt=""></div>
 	
 	<section class="offer">
 		<div class="offer__w">
@@ -106,11 +103,11 @@
 		<div class="container container_plus">
 			<div class="whom__plus">
 				<span>$ 2.2 млрд.</span>
-				<p>объем рынка VR в 2018 году</p>
+				<p>объем рынка VR <br> в 2018 году</p>
 			</div>
 			<div class="whom__plus">
 				<span>$ 26 млн.</span>
-				<p>объем рынка VR в России в 2018 году</p>
+				<p>объем рынка VR <br> в России в 2018 году</p>
 			</div>
 			<div class="whom__plus">
 				<span>31%</span>
@@ -580,17 +577,38 @@
 		</div>
 	</section>
 
+	<div class="modal none">
+		<div class="modal__w">
+			<div class="form__main">
+				<div class="form__close"></div>
+				<input class="form__input" type="text" placeholder="Ваше имя">
+				<input class="form__input" type="text" placeholder="Ваше город">
+				<input class="form__input" type="tel" placeholder="+7 (xxx) xxx-xxx">
+				<input class="form__input" type="email" placeholder="E-mail">
+				<button type="button" class="form__btn btn">Отправить</button>
+			</div>
+		</div>
+	</div>
+
 	<section class="form">
 		<div class="container d-flex">
 			<div class="form__content">
-				<h3 class="form__title">Телефон:</h3>
-				<h3 class="form__text">8 (950) 564-99-33</h3>
-				<h3 class="form__title">Директор:</h3>
-				<h3 class="form__text">Князев Денис</h3>
-				<h3 class="form__title">E-mail:</h3>
-				<h3 class="form__text">ISTA.VR@mail.ru</h3>
-				<h3 class="form__title">Skype:</h3>
-				<h3 class="form__text">ISTA VR</h3>
+				<div class="form__w">
+					<h3 class="form__title">Телефон:</h3>
+					<h3 class="form__text">8 (950) 564-99-33</h3>
+				</div>
+				<div class="form__w">
+					<h3 class="form__title">Директор:</h3>
+					<h3 class="form__text">Князев Денис</h3>
+				</div>
+				<div class="form__w">
+					<h3 class="form__title">E-mail:</h3>
+					<h3 class="form__text">ISTA.VR@mail.ru</h3>
+				</div>
+				<div class="form__w">
+					<h3 class="form__title">Skype:</h3>
+					<h3 class="form__text">ISTA VR</h3>
+				</div>
 			</div>
 			<div class="form__main">
 				<input class="form__input" type="text" placeholder="Ваше имя">
@@ -601,8 +619,7 @@
 			</div>
 		</div>
 	</section>
-	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-	<script src="js/parallax.min.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>

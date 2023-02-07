@@ -1,3 +1,9 @@
+@font-face { src: url("../fonts/Montserrat-Light.woff2") format("woff2"); font-family: "Montserrat"; font-weight: 300; font-style: normal; }
+@font-face { src: url("../fonts/Montserrat-Regular.woff2") format("woff2"); font-family: "Montserrat"; font-weight: 400; font-style: normal; }
+@font-face { src: url("../fonts/Montserrat-Medium.woff2") format("woff2"); font-family: "Montserrat"; font-weight: 500; font-style: normal; }
+@font-face { src: url("../fonts/Montserrat-SemiBold.woff2") format("woff2"); font-family: "Montserrat"; font-weight: 600; font-style: normal; }
+@font-face { src: url("../fonts/Montserrat-Bold.woff2") format("woff2"); font-family: "Montserrat"; font-weight: 700; font-style: normal; }
+
 :root {
 	--accent: #FFC600;
 	--secondary: #6A1AF9;
@@ -12,7 +18,7 @@ input:focus:required:invalid, textarea:focus:required:invalid { border-color: re
 input:required:valid, textarea:required:valid { border-color: green; }
 
 body {
-	font-family: 'Montserrat', sans-serif;;
+	font-family: Montserrat, sans-serif;;
 	line-height: var(--lineheight);
 	color: var(--text);
 	min-width: 320px;
@@ -22,6 +28,9 @@ body {
 	padding: 0;
 	font-size: 16px;
 	background: url('../img/bg.png') repeat-y;
+}
+*{
+	box-sizing: border-box;
 }
 ul{
 	list-style: none;
@@ -42,7 +51,7 @@ a{
 
 h1{
 	font-size: 38px;
-	font-weight: 700px;
+	font-weight: 700;
 }
 h2{
 	font-size: 30px;
@@ -86,8 +95,33 @@ h2{
 	right: 0;
 	border-radius: 40px 0 0 40px;
 	top: 40%;
+	padding: 0;
 	text-transform: uppercase;
 	z-index: 100;
+	display: flex;
+	width: 100px;
+	transition: width 0.3s ease-out;
+	align-items: center;
+	display: flex;
+	align-items: center;
+	padding: 17px 20px 17px 36px;
+}
+.btn-fixed img{
+	margin-right: 20px;
+}
+.btn-fixed::after{
+	content: 'Позвоните мне';
+	display: block;
+	color: #000;
+	font-size: 18px;
+	font-weight: 700;
+	margin-left: 10px;
+	height: 24px;
+	transition: width 0.2s ease-out;
+	overflow: hidden;
+}
+.btn-fixed:hover{
+	width: 300px;
 }
 
 /* header */
@@ -314,6 +348,10 @@ h2{
 	font-weight: 700;	
 	color: #fff;
 }
+.whom__plus p{
+	margin-top: 20px;
+	line-height: 20px;
+}
 .whom__btn{
 	margin: 65px auto 200px;
 	text-transform: uppercase;
@@ -454,7 +492,7 @@ h2{
 /* support */
 
 .support{
-	margin: 165px 100px;
+	margin: 165px 0 100px;
 }
 .support .container{
 	display: flex;
@@ -870,4 +908,39 @@ h2{
 .form__btn{
 	margin-top: 60px;
 	text-transform: uppercase;
+}
+
+
+.modal{
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 77777;
+}
+.modal.none{
+	display: none;
+}
+.form__close{
+	background: url('../img/close.svg') no-repeat center center;
+	background-size: cover;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	cursor: pointer;
+}
+.modal .form__main{
+	position: relative;
+}
+.modal .form__btn{
+	width: 260px;
+	margin-right: auto;
+	margin-left: auto;
 }
