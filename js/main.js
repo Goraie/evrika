@@ -54,7 +54,7 @@ range.addEventListener('input', () => {
 const modal = document.querySelector('.modal')
 const body = document.querySelector('body')
 const modalClose = document.querySelector('.form__close')
-const modalBtn = document.querySelectorAll('.offer__btn')
+const modalBtn = document.querySelectorAll('.btn-modal')
 
 modalBtn.forEach(btn => {
 	btn.addEventListener('click', () => {
